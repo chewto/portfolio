@@ -1,0 +1,19 @@
+{
+  "name": "jesus-lozada-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portafolio profesional de Jesús Lozada — Desarrollador Full-Stack especializado en eKYC, biometría y OCR.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "assets:og": "python scripts/generate-og.py",
+    "cv:pdf": "node scripts/generate-cv-pdf.mjs"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
+  }
+}
